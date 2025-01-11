@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage[style=alphabetic, apacite]{apacite}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage[nocheck]{fancyhdr}
+
+\title{
+\textbf{Title:}\\
+\textbf{Subtitle}
+}
+
+\author{\\ Merijn Vervoorn \\ University of Amsterdam \\ 15136191@uva.nl \\ \\}
+\date{\today}
+
+\begin{document}
+%Set pagestyle fancy
+\pagestyle{fancy}
+\fancyhead{} % Clear all header fields
+
+% Create header
+\fancyhead[L]{\includegraphics[scale=0.0225]{merijn-black}}
+\fancyhead[C]{\includegraphics[scale=0.35]{csscilogo}}
+\fancyhead[R]{\includegraphics[scale=0.015]{uvalogo}}
+
+% Include logo's on first page
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.021]{uvalogo}
+\includegraphics[scale=0.575]{csscilogo}
+\end{figure}
+
+\maketitle % Print title
+
+\\
+%\begin{abstract}
+
+%\end{abstract}
+
+\input{text}
+
+\newpage
+
+\newpage
+\bibliographystyle{apacite}
+\bibliography{refs}
+
+%\newpage
+%\section{Appendix 1: Title}
+%\input{file}
+%\newpage
+
+\end{document}
+
