@@ -5,6 +5,8 @@ This repo holds the LaTeX template I use when writing my reports.
 ## 🪛 Setup
 
 I use [Overleaf](https://www.overleaf.com/) as my LaTeX editor.
+The main.tex file is the main file (No shit, Sherlock). This file references the other .tex files.
+For referencing I use the apacite package, this follows APA 6th Edition rules. You can find more about the package via [apacite.pdf](apacite.pdf). Use "A study \cite{lastname2025entry}..." for citations, or "In a study by Lastname \citeyear{lastname2025entry}..." for intext citations.
 
 ## 🔨 Customization
 
